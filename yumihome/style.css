@@ -27,7 +27,7 @@ img {
 }
 
 .highlight {
-    color: #be4020;
+    color: #FFD369;
 }
 
 /* ===== Header ===== */
@@ -54,7 +54,7 @@ img {
 .logo a {
     font-size: 20px;
     font-weight: 700;
-    color: #be4020;
+    color: #FFD369;
     letter-spacing: 0;
 }
 
@@ -127,7 +127,7 @@ img {
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    color: #be4020;
+    color: #FFD369;
     font-size: 20px;
     font-weight: 700;
 }
@@ -202,7 +202,7 @@ img {
 
 .hero-subtitle {
     font-size: 14px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -224,7 +224,7 @@ img {
 }
 
 .hero-title .highlight {
-    color: #be4020;
+    color: #FFD369;
 }
 
 .hero-community {
@@ -236,11 +236,11 @@ img {
 
 .community-label {
     font-size: 12px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border: 1px solid #be4020;
+    border: 1px solid #FFD369;
     padding: 4px 10px;
     border-radius: 2px;
 }
@@ -273,7 +273,7 @@ img {
     display: block;
     font-size: 48px;
     font-weight: 900;
-    color: #be4020;
+    color: #FFD369;
     line-height: 1.2;
 }
 
@@ -293,7 +293,7 @@ img {
 .section-label {
     display: block;
     font-size: 12px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -337,6 +337,13 @@ img {
     overflow: hidden;
 }
 
+.program-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .program-image-placeholder {
     width: 100%;
     height: 100%;
@@ -355,7 +362,7 @@ img {
 .program-badge {
     display: inline-block;
     font-size: 11px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -371,7 +378,7 @@ img {
 }
 
 .program-name .highlight {
-    color: #be4020;
+    color: #FFD369;
 }
 
 .program-desc {
@@ -397,7 +404,7 @@ img {
 .tag {
     display: inline-block;
     font-size: 12px;
-    color: #be4020;
+    color: #FFD369;
     background: rgba(190, 64, 32, 0.08);
     padding: 4px 12px;
     border-radius: 20px;
@@ -407,7 +414,7 @@ img {
 .program-link {
     display: inline-block;
     font-size: 24px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 300;
     transition: transform 0.3s;
 }
@@ -444,13 +451,13 @@ img {
 
 .community-code {
     font-size: 14px;
-    color: #be4020;
+    color: #FFD369;
     margin-bottom: 30px;
 }
 
 .btn-community {
     display: inline-block;
-    background-color: #be4020;
+    background-color: #FFD369;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
@@ -501,7 +508,7 @@ img {
 }
 
 .class-badge.discount {
-    background-color: #be4020;
+    background-color: #FFD369;
 }
 
 .class-badge.closing {
@@ -531,7 +538,7 @@ img {
 .class-type {
     display: inline-block;
     font-size: 11px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 8px;
@@ -561,14 +568,14 @@ img {
 .price-current {
     font-size: 22px;
     font-weight: 700;
-    color: #be4020;
+    color: #FFD369;
 }
 
 .class-badge-new {
     display: inline-block;
     font-size: 11px;
     color: #ffffff;
-    background-color: #be4020;
+    background-color: #FFD369;
     padding: 3px 8px;
     border-radius: 3px;
     margin-bottom: 15px;
@@ -577,7 +584,7 @@ img {
 .class-link {
     display: block;
     font-size: 14px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 500;
     margin-top: 10px;
     transition: color 0.3s;
@@ -620,7 +627,7 @@ img {
 
 .review-id {
     font-size: 13px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -639,8 +646,8 @@ img {
 .btn-more {
     display: inline-block;
     background: none;
-    border: 1px solid #be4020;
-    color: #be4020;
+    border: 1px solid #FFD369;
+    color: #FFD369;
     font-size: 14px;
     font-weight: 500;
     padding: 12px 40px;
@@ -650,7 +657,7 @@ img {
 }
 
 .btn-more:hover {
-    background-color: #be4020;
+    background-color: #FFD369;
     color: #ffffff;
 }
 
@@ -676,7 +683,7 @@ img {
 
 .footer-brand h3 {
     font-size: 24px;
-    color: #be4020;
+    color: #FFD369;
     font-weight: 700;
     margin-bottom: 8px;
 }
@@ -717,7 +724,7 @@ img {
 }
 
 .footer-links-col ul li a:hover {
-    color: #be4020;
+    color: #FFD369;
 }
 
 .footer-sns li a i {
@@ -736,15 +743,15 @@ img {
     display: inline-block;
     margin-top: 15px;
     font-size: 13px;
-    color: #be4020;
-    border: 1px solid #be4020;
+    color: #FFD369;
+    border: 1px solid #FFD369;
     padding: 8px 20px;
     border-radius: 4px;
     transition: all 0.3s;
 }
 
 .btn-contact:hover {
-    background-color: #be4020;
+    background-color: #FFD369;
     color: #ffffff;
 }
 
