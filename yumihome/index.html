@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>블라랩</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="/">블라랩</a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#">콘블라</a></li>
+                    <li><a href="#">강의</a></li>
+                    <li><a href="#">1:1 컨설팅</a></li>
+                    <li><a href="#">릴스블라</a></li>
+                    <li><a href="#">블라북스</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="btn-login">로그인</a>
+                <button class="btn-menu-mobile" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <span>블라랩</span>
+            <button class="btn-close" id="menuClose"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="mobile-nav-menu">
+            <li><a href="#">콘블라</a></li>
+            <li><a href="#">강의</a></li>
+            <li><a href="#">1:1 컨설팅</a></li>
+            <li><a href="#">릴스블라</a></li>
+            <li><a href="#">블라북스</a></li>
+        </ul>
+        <div class="mobile-menu-footer">
+            <a href="#" class="btn-login-mobile">로그인</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">블라랩</p>
+                <p class="hero-id">blabla_lizzypark</p>
+                <h1 class="hero-title">
+                    팔리는 사람이 되는 시대,<br>
+                    당신의 이름이<br>
+                    곧 <span class="highlight">브랜드</span>입니다
+                </h1>
+                <div class="hero-community">
+                    <span class="community-label">Community</span>
+                    <span class="community-text">리지팍과 함께한 사람들</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <span class="stat-number">3000+</span>
+                <span class="stat-label">누적 수강생</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">30M+</span>
+                <span class="stat-label">누적 조회수</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">500K+</span>
+                <span class="stat-label">누적 팔로워</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs">
+        <div class="section-header">
+            <span class="section-label">Programs</span>
+            <h2 class="section-title">프로그램</h2>
+        </div>
+        <div class="programs-grid">
+            <!-- Program 1: 콘블라 -->
+            <div class="program-card">
+                <div class="program-image">
+                    <div class="program-image-placeholder">
+                        <span>콘블라 이미지</span>
+                    </div>
+                </div>
+                <div class="program-info">
+                    <span class="program-badge">Content Branding Class</span>
+                    <h3 class="program-name">콘<span class="highlight">블라</span></h3>
+                    <p class="program-desc">몸값 올리는 밀착 브랜딩 클래스</p>
+                    <p class="program-sub">당신의 노하우와 스토리로 릴스 퍼스널 브랜딩을 시작하세요.</p>
+                    <div class="program-tags">
+                        <span class="tag">1:1 피드백</span>
+                        <span class="tag">5주 실강</span>
+                        <span class="tag">수익화까지</span>
+                    </div>
+                    <a href="#" class="program-link">›</a>
+                </div>
+            </div>
+
+            <!-- Program 2: 1:1 Consulting -->
+            <div class="program-card">
+                <div class="program-image">
+                    <div class="program-image-placeholder">
+                        <span>1:1 컨설팅 이미지</span>
+                    </div>
+                </div>
+                <div class="program-info">
+                    <span class="program-badge">1:1 Consulting</span>
+                    <h3 class="program-name">온/오프라인<br>1:1 컨설팅</h3>
+                    <p class="program-desc">준비 중</p>
+                    <a href="#" class="program-link">›</a>
+                </div>
+            </div>
+
+            <!-- Program 3: 릴스블라 -->
+            <div class="program-card">
+                <div class="program-image">
+                    <div class="program-image-placeholder">
+                        <span>릴스블라 이미지</span>
+                    </div>
+                </div>
+                <div class="program-info">
+                    <span class="program-badge">Reels Challenge</span>
+                    <h3 class="program-name">릴스<span class="highlight">블라</span></h3>
+                    <p class="program-desc">릴스를 꾸준히 올리는 힘,<br>이번엔 혼자가 아니라 시스템으로 만드세요</p>
+                    <div class="program-tags">
+                        <span class="tag">AI 아이디어 툴</span>
+                        <span class="tag">라이브 강의</span>
+                        <span class="tag">라이브 코칭</span>
+                    </div>
+                    <a href="#" class="program-link">›</a>
+                </div>
+            </div>
+
+            <!-- Program 4: 블라북스 -->
+            <div class="program-card">
+                <div class="program-image">
+                    <div class="program-image-placeholder">
+                        <span>블라북스 이미지</span>
+                    </div>
+                </div>
+                <div class="program-info">
+                    <span class="program-badge">Bla Books</span>
+                    <h3 class="program-name">블라<span class="highlight">북스</span></h3>
+                    <p class="program-desc">준비 중</p>
+                    <a href="#" class="program-link">›</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community">
+        <div class="community-inner">
+            <h2 class="community-title">블라블라 커뮤니티</h2>
+            <p class="community-desc">지금 바로 커뮤니티에 참여해<br>같은 분야의 사람들과 함께 고민을 나누고 성장해요</p>
+            <p class="community-code">※ 참여코드 - 202512</p>
+            <a href="#" class="btn-community">지금 참여하기</a>
+        </div>
+    </section>
+
+    <!-- Classes/Events Section -->
+    <section class="classes">
+        <div class="section-header">
+            <span class="section-label">블라블라 클래스의 대표 강의</span>
+            <h2 class="section-title">클래스별 강좌</h2>
+        </div>
+        <div class="classes-grid">
+            <!-- Class Card 1 -->
+            <div class="class-card">
+                <div class="class-badge discount">할인 마감임박!</div>
+                <div class="class-image">
+                    <div class="class-image-placeholder">
+                        <span>VOD 스페셜 강의</span>
+                    </div>
+                </div>
+                <div class="class-info">
+                    <span class="class-type">VOD</span>
+                    <h3 class="class-title">온/오프라인 밀착 원데이 1:1 컨설팅 [수익화를 위한 퍼스널브랜딩]</h3>
+                    <div class="class-price">
+                        <span class="price-original">390,000원</span>
+                        <span class="price-current">220,000원</span>
+                    </div>
+                    <span class="class-badge-new">NEW</span>
+                    <a href="#" class="class-link">더 알아보기 ></a>
+                </div>
+            </div>
+
+            <!-- Class Card 2 -->
+            <div class="class-card">
+                <div class="class-badge closing">곧 마감</div>
+                <div class="class-image">
+                    <div class="class-image-placeholder">
+                        <span>콘블라 클래스</span>
+                    </div>
+                </div>
+                <div class="class-info">
+                    <span class="class-type">LIVE</span>
+                    <h3 class="class-title">콘블라: 몸값 올리는 릴스 브랜딩 클래스 [콘텐츠로 블라블라]</h3>
+                    <div class="class-price">
+                        <span class="price-original">1,490,000원</span>
+                        <span class="price-current">690,000원</span>
+                    </div>
+                    <span class="class-badge-new">NEW</span>
+                    <a href="#" class="class-link">더 알아보기 ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="section-header">
+            <span class="section-label">왜, 블라블라 클래스 인가요?</span>
+            <h2 class="section-title">수강생들의 생생한 후기</h2>
+        </div>
+        <div class="reviews-grid" id="reviewsGrid">
+            <!-- Reviews will be loaded by JavaScript -->
+        </div>
+        <div class="reviews-more">
+            <button class="btn-more" id="loadMoreReviews">더보기</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>블라랩</h3>
+                    <p class="footer-id">blabla_lizzypark</p>
+                    <p class="footer-slogan">팔리는 사람이 되는 시대,<br>당신의 이름이 곧 브랜드입니다</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-col">
+                        <h4>블라블라 클래스?</h4>
+                        <ul>
+                            <li><a href="#">강의</a></li>
+                            <li><a href="#">강의 후기</a></li>
+                            <li><a href="#">강의 Q&A</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-col">
+                        <h4>SNS 바로가기</h4>
+                        <ul class="footer-sns">
+                            <li><a href="#"><i class="fab fa-youtube"></i> 유튜브 방문하기</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> 인스타그램 방문하기</a></li>
+                            <li><a href="#"><i class="fab fa-blogger"></i> 블로그 방문하기</a></li>
+                            <li><a href="#"><i class="fas fa-comment"></i> 오픈채팅방 참여하기</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-col">
+                        <h4>Contact us</h4>
+                        <p class="contact-email">j6r6@naver.com</p>
+                        <p class="contact-phone">010-4181-9959</p>
+                        <a href="#" class="btn-contact">제안 보내기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-company-info">
+                    <p>블라블라에듀 | 대표자 : 박자령 | 소재지 : 경기도 시흥시 은계중앙로 250</p>
+                    <p>사업자 등록번호 : 140-08-01244 | 통신판매신고번호 : 2025년도-부천소사-0281</p>
+                    <p>개인정보관리책임자 : 박자령 | 호스팅제공자 : (주)아임웹</p>
+                    <p>문의 : 010-4181-9959</p>
+                </div>
+                <p class="footer-copyright">© 2025 BLALAB · blablalizzypark</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

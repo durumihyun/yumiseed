@@ -1,0 +1,22 @@
+{
+  "name": "AI Daily Vibe",
+  "short_name": "AIVibe",
+  "description": "매일 아침 가장 중요한 미국 AI 트렌드를 빠르게 파악하세요.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
