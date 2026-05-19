@@ -337,13 +337,6 @@ img {
     overflow: hidden;
 }
 
-.program-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
 .program-image-placeholder {
     width: 100%;
     height: 100%;
